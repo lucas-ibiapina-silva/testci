@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="59d23a77-e910-43da-aede-41d202b6c927" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,5 +121,9 @@
       <screen x="1440" y="25" width="1920" height="1055" />
     </state>
     <state x="2136" y="351" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.25.1440.790/1440.25.1920.1055@1440.25.1920.1055" timestamp="1622723187855" />
+    <state x="2058" y="245" width="670" height="676" key="search.everywhere.popup" timestamp="1622724736736">
+      <screen x="1440" y="25" width="1920" height="1055" />
+    </state>
+    <state x="2058" y="245" width="670" height="676" key="search.everywhere.popup/0.25.1440.790/1440.25.1920.1055@1440.25.1920.1055" timestamp="1622724736736" />
   </component>
 </project>
