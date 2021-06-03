@@ -91,7 +91,6 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: ./gradlew build sonarqube --info
 
-
   package:
     needs: [static-code-analysis]
     name: Generate APK
@@ -103,10 +102,8 @@ jobs:
       - name: Setup Java JDK
         uses: actions/setup-java@v2.1.0
           with:
-            java-version: '1.8'
-
-      - name: Build debug APK
-        run: ./gradlew assembleDebug --stacktrace
+            java-version: '11'
+            distribution: 'adopt'
 
       - name: Build with Gradle
         run: ./gradlew build
