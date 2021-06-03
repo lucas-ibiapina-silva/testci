@@ -7,20 +7,20 @@ on:
   workflow_dispatch:
     
 jobs:
-  lint:
-    runs-on: ubuntu-latest
-    steps: 
-      - name: Checkout
-        uses: actions/checkout@v2.3.4
-
-      - name: Run lint
-        run: ./gradlew lintDebug
-
-      - name: Upload a Build Artifact
-        uses: actions/upload-artifact@v2.2.3
-        with:
-          name: index.html
-          path: app/build/reports/lint-results-debug.html
+#  lint:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: Checkout
+#        uses: actions/checkout@v2.3.4
+#
+#      - name: Run lint
+#        run: ./gradlew lintDebug
+#
+#      - name: Upload a Build Artifact
+#        uses: actions/upload-artifact@v2.2.3
+#        with:
+#          name: index.html
+#          path: app/build/reports/lint-results-debug.html
 
 #  unit-test:
 #    needs: [lint]
@@ -89,7 +89,7 @@ jobs:
   package:
     runs-on: ubuntu-latest
     name: Generate APK
-    needs: [lint]
+#    needs: [lint]
     steps:
       - name: Checkout
         uses: actions/checkout@v2.3.4
