@@ -4,6 +4,7 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
+  workflow_dispatch:
     
 jobs:
   lint:
@@ -18,7 +19,7 @@ jobs:
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.3
         with:
-          name: app
+          name: index.html
           path: app/build/reports/lint-results-debug.html
 
 #  unit-test:
